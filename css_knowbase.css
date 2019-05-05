@@ -881,7 +881,7 @@ body {
 }
 
 .btn.btn-green {
-    background-color: #66bb6a;
+    color: #66bb6a;
     transition: background 0.4s, color 0.4s;
 }
 
