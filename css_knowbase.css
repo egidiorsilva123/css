@@ -930,7 +930,8 @@ body {
     margin: 17px 0;
     float: left;
     display: block;
-    height: auto
+    height: auto;
+    border-bottom: 3px solid #B5121B;
 }
 
 @media (max-width:767px) {
