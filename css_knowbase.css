@@ -1848,7 +1848,7 @@ body>.body-content article#kb-article #related-articles ul li a {
 }
 
 .header__breadcrumb {
-    background-color: #f7f7f7;
+    background-color: blue;
     padding-top: 55px;
     padding-bottom: 55px;
     margin-bottom: 40px;
