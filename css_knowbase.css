@@ -881,12 +881,17 @@ body {
 }
 
 .btn.btn-green {
-    color: #66bb6a;
-    transition: background 0.4s, color 0.4s;
+    background-color: #66bb6a
 }
 
 .btn.btn-green:hover {
-    background-color: #34a052
+    background-color: #34a052;
+    transition: all .2 ease-in-out;
+    -webkit-webkit: transition all .2 ease-in-out;
+    -moz-webkit: transition all .2 ease-in-out;
+    -ms-webkit: transition all .2 ease-in-out;
+    -o-webkit: transition all .2 ease-in-out;
+    webkit: transition all .2 ease-in-out;
 }
 
 @media (min-width:1200px) {
@@ -914,7 +919,7 @@ body {
 }
 
 #header__top {
-    background-color: #fff;
+    background-color: #F8F8F8;
     border: none;
     height: 70px;
     margin-bottom: 0
@@ -1106,7 +1111,7 @@ body {
 }
 
 .box__main .main__item a {
-    background-color: #fff;
+    background-color: #F8F8F8;
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     flex-direction: column;
@@ -1144,7 +1149,7 @@ body {
 }
 
 footer {
-    background-color: #fff
+    background-color: #F8F8F8
 }
 
 footer .box__artigos {
