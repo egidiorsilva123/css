@@ -919,10 +919,11 @@ body {
 }
 
 #header__top {
-    background-color: blue;
+    background-color: #FFFFFF;
     border: none;
     height: 70px;
-    margin-bottom: 0
+    margin-bottom: 0;
+    border-bottom: 3px solid #B5121B;
 }
 
 #header__top #logo {
@@ -931,7 +932,6 @@ body {
     float: left;
     display: block;
     height: auto;
-    border-bottom: 3px solid #B5121B;
 }
 
 @media (max-width:767px) {
