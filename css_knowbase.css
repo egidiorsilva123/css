@@ -919,7 +919,7 @@ body {
 }
 
 #header__top {
-    background-color: #F8F8F8;
+    background-color: blue;
     border: none;
     height: 70px;
     margin-bottom: 0
@@ -1848,7 +1848,7 @@ body>.body-content article#kb-article #related-articles ul li a {
 }
 
 .header__breadcrumb {
-    background-color: blue;
+    background-color: #f7f7f7;
     padding-top: 55px;
     padding-bottom: 55px;
     margin-bottom: 40px;
