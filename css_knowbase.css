@@ -981,16 +981,14 @@ body {
 }
 
 .header__search {
-    background: rgba(9,45,206,1);
-background: -moz-linear-gradient(left, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(9,45,206,1)), color-stop(100%, rgba(240,4,0,1)));
-background: -webkit-linear-gradient(left, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
-background: -o-linear-gradient(left, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
-background: -ms-linear-gradient(left, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
-background: linear-gradient(to right, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#092dce', endColorstr='#f00400', GradientType=1 );
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3236+0,ff3236+0,0f2cc9+0,470082+40,ef0401+100,ef0401+100,ef0401+100 */
+    background: rgb(255,50,54); /* Old browsers */
+        background: -moz-linear-gradient(left,  rgba(255,50,54,1) 0%, rgba(255,50,54,1) 0%, rgba(15,44,201,1) 0%, rgba(71,0,130,1) 40%, rgba(239,4,1,1) 100%, rgba(239,4,1,1) 100%, rgba(239,4,1,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgba(255,50,54,1) 0%,rgba(255,50,54,1) 0%,rgba(15,44,201,1) 0%,rgba(71,0,130,1) 40%,rgba(239,4,1,1) 100%,rgba(239,4,1,1) 100%,rgba(239,4,1,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  rgba(255,50,54,1) 0%,rgba(255,50,54,1) 0%,rgba(15,44,201,1) 0%,rgba(71,0,130,1) 40%,rgba(239,4,1,1) 100%,rgba(239,4,1,1) 100%,rgba(239,4,1,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3236', endColorstr='#ef0401',GradientType=1 ); /* IE6-9 */
     width: 100%;
-    height: 45vh;
+    height: 51vh;
 }
 
 @media (max-width:767px) {
@@ -998,6 +996,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#092dce', end
         background-color: #f7f7f7;
         padding: 40px 15px
     }
+}
+
+/*ESPAÇAMENTO TOP DA CAIXA DE PESQUISA*/
+.box__search {
+    padding-top: 125px;
 }
 
 .header__search .box__search {
@@ -1847,6 +1850,28 @@ body>.body-content article#kb-article #related-articles ul li a {
 
 .search-container .search-item>div {
     font-size: 14px
+}
+
+/*NAVBAR FIXA*/
+.navbar {
+width: 100%;
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+z-index: 1030; 
+}
+
+/*NAVEGAÇÃO SEÇÕES KNOWBASE CONFIGURAÇÕES*/
+.breadcrumb {
+background-color: #f8f8f8;
+padding: 40px;
+list-style: none;
+font-size: 16px;
+margin-bottom: 0;
+line-height: 0px;
+color: #5f5f5f;
+    
 }
 
 .header__breadcrumb {
