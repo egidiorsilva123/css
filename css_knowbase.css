@@ -881,11 +881,11 @@ body {
 }
 
 .btn.btn-green {
-    background-color: #BC0D2E;
+    background-color: #ED0504;
 }
 
 .btn.btn-green:hover {
-    background-color: #ED0504;
+    background-color: #BC0D2E;
 }
 
 @media (min-width:1200px) {
