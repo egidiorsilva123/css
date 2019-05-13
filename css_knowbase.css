@@ -881,17 +881,11 @@ body {
 }
 
 .btn.btn-green {
-    background-color: #66bb6a
+    background-color: #BC0D2E;
 }
 
 .btn.btn-green:hover {
-    background-color: #34a052;
-    transition: all .3 ease-in-out;
-    -webkit-webkit: transition all .3 ease-in-out;
-    -moz-webkit: transition all .3 ease-in-out;
-    -ms-webkit: transition all .3 ease-in-out;
-    -o-webkit: transition all .3 ease-in-out;
-    webkit: transition all .3 ease-in-out;
+    background-color: #ED0504;
 }
 
 @media (min-width:1200px) {
@@ -919,12 +913,10 @@ body {
 }
 
 #header__top {
-    background-color: #FFFFFF;
+    background-color: #fff;
     border: none;
     height: 70px;
-    width:100%;
-    margin-bottom: 0;
-    border-bottom: 3px solid #B5121B;
+    margin-bottom: 0
 }
 
 #header__top #logo {
@@ -932,7 +924,7 @@ body {
     margin: 17px 0;
     float: left;
     display: block;
-    height: auto;
+    height: auto
 }
 
 @media (max-width:767px) {
@@ -989,8 +981,16 @@ body {
 }
 
 .header__search {
+    background: rgba(9,45,206,1);
+background: -moz-linear-gradient(left, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(9,45,206,1)), color-stop(100%, rgba(240,4,0,1)));
+background: -webkit-linear-gradient(left, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
+background: -o-linear-gradient(left, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
+background: -ms-linear-gradient(left, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
+background: linear-gradient(to right, rgba(9,45,206,1) 0%, rgba(240,4,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#092dce', endColorstr='#f00400', GradientType=1 );
     width: 100%;
-    background-color: #ef5350
+    height: 45vh;
 }
 
 @media (max-width:767px) {
@@ -1016,14 +1016,14 @@ body {
     color: #fff;
     font-size: 24px;
     font-weight: 700;
-    margin: 0 0 20px 0;
+    margin: 85px 0 20px 0;
     text-align: center
 }
 
 @media (max-width:767px) {
     .header__search .box__search h2 {
-        color: #4a4a4a;
-        font-size: 20px
+        color: #fff;
+        font-size: 22px;
     }
 }
 
@@ -1084,7 +1084,7 @@ body {
 }
 
 .box__main {
-    background-color: #E9EAE5;
+    background-color: #f7f7f7;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px
@@ -1113,7 +1113,7 @@ body {
 }
 
 .box__main .main__item a {
-    background-color: #F8F8F8;
+    background-color: #fff;
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     flex-direction: column;
@@ -1151,7 +1151,7 @@ body {
 }
 
 footer {
-    background-color: #E9EAE5
+    background-color: #fff
 }
 
 footer .box__artigos {
@@ -1445,7 +1445,7 @@ body>.body-content>div.row>div.col-sm-9:last-child {
 body>.body-content>div.row aside .kb-menu-container {
     background: 0 0;
     padding: 0;
-    margin-bottom: 5px
+    margin-bottom: 30px
 }
 
 body>.body-content>div.row aside .kb-menu-container ul {
