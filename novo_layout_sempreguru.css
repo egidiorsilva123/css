@@ -982,8 +982,8 @@ body {
 
 .header__search {
     background-image: 
-    url(https://s3.amazonaws.com/movidesk-files/FBD70E4CED7A6D1ABD6D492B2AD9E2B6), 
-      url(https://s3.amazonaws.com/movidesk-files/C140BF5EF691F6C7FE6250C4CFF7049B);
+    url(https://s3.amazonaws.com/movidesk-files/E23BD4C28449D66A66FC60131C393E91), /**IMAGEM SEARCH BAR**/
+      url(https://s3.amazonaws.com/movidesk-files/1C71CD90960FF46A7513D7407BCEC888); /**GRADIENTE SEARCH BAR**/
     
     background-repeat: 
     no-repeat, 
@@ -1008,7 +1008,7 @@ body {
     }
 }
 
-/*ESPAÃ‡AMENTO TOP DA CAIXA DE PESQUISA*/
+/*ESPAÃƒÆ’Ã¢â‚¬Â¡AMENTO TOP DA CAIXA DE PESQUISA*/
 .box__search {
     padding-top: 125px;
 }
@@ -1872,7 +1872,7 @@ top: 0;
 z-index: 1030; 
 }
 
-/*NAVEGAÃ‡ÃƒO SEÃ‡Ã•ES KNOWBASE CONFIGURAÃ‡Ã•ES*/
+/*NAVEGAÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã†â€™O SEÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã¢â‚¬Â¢ES KNOWBASE CONFIGURAÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã¢â‚¬Â¢ES*/
 .breadcrumb {
 background-color: #f8f8f8;
 padding: 40px;
