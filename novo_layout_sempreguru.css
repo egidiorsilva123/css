@@ -987,12 +987,6 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
 
-/**.header__search {
-    background-image: 
-    url(https://s3.amazonaws.com/movidesk-files/E23BD4C28449D66A66FC60131C393E91), /**IMAGEM SEARCH BAR**/
-      url(https://s3.amazonaws.com/movidesk-files/1C71CD90960FF46A7513D7407BCEC888); /**GRADIENTE SEARCH BAR**/
-**/
-    
     background-repeat: 
     no-repeat, 
       no-repeat;
