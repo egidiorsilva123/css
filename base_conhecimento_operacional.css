@@ -991,16 +991,16 @@ body {
     no-repeat, 
       no-repeat;
     
-/*    background-position: 
+/*  background-position: 
     right 150px, 
-      center;
+    center;
     
     background-size:
     690px,
-      auto;
+    auto;*/
 
     width: 100%;
-    height: 51vh;*/
+    height: 51vh;
 }
 
 @media (max-width:767px) {
